@@ -4,4 +4,5 @@ services:
     build: .
     ports:
       - "4567:4567"
-
+    environment:
+      - API_NINJAS_KEY=${API_NINJAS_KEY}
