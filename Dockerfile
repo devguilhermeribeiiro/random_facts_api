@@ -10,6 +10,8 @@ RUN bundle install
 
 COPY . .
 
+EXPOSE 4567
+
 # Run the Sinatra app
 CMD ["ruby", "app.rb"]
 
