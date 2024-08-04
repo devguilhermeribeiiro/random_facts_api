@@ -4,4 +4,6 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-gem "rack", "~> 3.1"
+
+
+gem "sinatra", "~> 4.0"
