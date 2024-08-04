@@ -1,0 +1,29 @@
+# .gitignore
+
+# Bundler
+.bundle/
+
+# Ruby
+*.gem
+*.rbc
+.rvmrc
+.rbenv-vars
+.ruby-version
+.ruby-gemset
+
+# Environment variables
+.env
+
+# Logs
+log/*.log
+tmp/*
+
+# Database
+db/*.sqlite3
+db/*.sqlite3-journal
+
+# Sockets
+tmp/sockets/
+
+# PID
+tmp/pids/
