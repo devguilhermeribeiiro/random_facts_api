@@ -1,27 +1,37 @@
-Esta é uma pequena aplicação que sempre que você atualiza a pagina ela se conecta a uma api de terceiros e busca 10 fatos aleatórios em sua api e os exibe na tela. É simples, mas serve para demostrar e comprovar meu conhecimento em integrações com APIs, mesmo que não seja tão abrangente ainda.
+<h1>Curious Facts</h1>
 
+<p><strong>Curious Facts</strong> is a simple yet fun application that showcases my ability to integrate third-party APIs. Each time you refresh the page, it connects to an external API to fetch 10 random facts and displays them on the screen. While it is a basic project, it demonstrates my skills in API integration, even though I am still in the learning phase.</p>
 
-Para rodar a aplicação localmente, basta clonar esse repositório com o comando:
+<h2>How to Run the Application Locally</h2>
 
-  git clone https://github.com/devguilhermeribeiro/random_facts_api.git
+<p>To run this application on your local environment, follow the steps below:</p>
 
-Acesse o site da API Ninjas:
+<h3>1. Clone the Repository</h3>
 
-  https://api-ninjas.com/
+<p>Open your terminal and run the following command:</p>
 
-Logo após pegue a sua chave da api e a defina num arquivo .env, por exemplo:
+<pre><code>git clone https://github.com/devguilhermeribeiro/curious_facts.git; cd curious_facts</code></pre>
 
-  #.env
-    API_NINJAS_KEY=sua-chave-da-api
+<h3>2. Configure the API</h3>
 
-Finalmente, execute bundler com o comando:
+<p>Visit the <a href="https://api-ninjas.com/">API Ninjas</a> website and obtain your API key. Then, create a <code>.env</code> file at the root of the project and add your API key:</p>
 
-  bundle install
+<pre><code># .env
+API_NINJAS_KEY=your-api-key
+</code></pre>
 
-É imprescindível que você já tenha um ambiente de desenvolvimento Ruby configurado.
+<h3>3. Install Dependencies</h3>
 
-Por fim inicie a aplicação com o comando:
+<p>Run Bundler to install all necessary dependencies:</p>
 
-  ruby app.rb
+<pre><code>bundle install</code></pre>
 
-E 'ooops' você está "ON SINATRA", kakakka. Bricadeiras á parte, é bom lembra que essa aplicação foi desenvolvida usando a versão 3.3.4 do Ruby. Caso tenhas problemas ao rodar a aplicação se certifique que a versão da linguagem é compatível ou adapte do código para a versão que você estiver utilizando.
+<p><strong>Note:</strong> Make sure you have a Ruby development environment set up.</p>
+
+<h3>4. Run the Application</h3>
+
+<p>Finally, start the application with the command:</p>
+
+<pre><code>ruby app.rb</code></pre>
+
+<p>And there you go, you are "ON SINATRA"! 😄 Jokes aside, this application was developed using Ruby version 3.3.4. If you encounter any issues running it, ensure that your Ruby version is compatible or adapt the code to the version you are using.</p>
