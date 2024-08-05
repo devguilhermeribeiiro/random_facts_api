@@ -27,3 +27,6 @@ tmp/sockets/
 
 # PID
 tmp/pids/
+
+#Procfiles
+Procfile
