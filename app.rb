@@ -7,6 +7,8 @@ require 'erb'
 URL = URI('https://api.api-ninjas.com/v1/facts')
 API_KEY = ENV['API_NINJAS_KEY']
 
+set :port, ENV['PORT'] || 4567
+
 get '/' do
   @res = fetch_facts
   erb :facts
